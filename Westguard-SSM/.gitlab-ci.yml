@@ -1,0 +1,50 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+ 
+#Creating Stages for building and deploying Module   
+stages:
+  - analyse
+  - build
+  - deploy
+
+#Cppcheck is an analysis tool for C/C++ code. It detects the types of bugs that the compilers normally fail to detect.
+run_cppcheck:
+  stage: analyse
+  image: horiba/cpp-gcc5
+  script:
+    - cppcheck --error-exitcode=1 -q src/test
+
+# build for Intel + run the unit tests
+gcc_intel:
+  stage: build
+  image: horiba/cpp-gcc5
+  script:
+    # build
+    - mkdir build && cd build
+    - cmake -DCMAKE_BUILD_TYPE=Release ..
+    - make
+    # run unit tests
+    - ctest -V
+    - mv gtest_report.xml ..
+  artifacts:
+    paths:
+      - gtest_report.xml
+
+#build the Wesrtgard-SSM Library for C++ MOSAR environment
+#we do it only of the unit tests succeeded (Intel build)
+gcc_petalinux:
+  stage: deploy
+  tags:
+    - xilinx-petalinux
+  script:
+    - mkdir build && cd build
+    - cmake -DCMAKE_BUILD_TYPE=Release ..
+    - make
+    # create artifact package
+    - make install
+    - cd ..
+    - chmod 775 create_package.sh
+    - ./create_package.sh Westguard-SSM
+  artifacts:
+    paths:
+      - Westguard-SSM/*

@@ -1,0 +1,100 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1d35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1d35.dir/build.make CMakeFiles/cmTC_a1d35.dir/build
+make[1]: Entering directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1d35.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a1d35.dir/testCCompiler.c.o   -c /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: internal compiler error: Segmentation fault (program cc1)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-5/README.Bugs> for instructions.
+CMakeFiles/cmTC_a1d35.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a1d35.dir/testCCompiler.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a1d35.dir/testCCompiler.c.o] Error 4
+make[1]: Leaving directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a1d35/fast' failed
+make: *** [cmTC_a1d35/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdcfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdcfb.dir/build.make CMakeFiles/cmTC_bdcfb.dir/build
+make[1]: Entering directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdcfb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_bdcfb.dir/CheckSymbolExists.c.o   -c /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+virtual memory exhausted: Cannot allocate memory
+CMakeFiles/cmTC_bdcfb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bdcfb.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bdcfb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bdcfb/fast' failed
+make: *** [cmTC_bdcfb/fast] Error 2
+
+File /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95293/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95293.dir/build.make CMakeFiles/cmTC_95293.dir/build
+make[1]: Entering directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95293.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_95293.dir/CheckFunctionExists.c.o   -c /home/charles/Desktop/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+virtual memory exhausted: Cannot allocate memory
+CMakeFiles/cmTC_95293.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_95293.dir/CheckFunctionExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_95293.dir/CheckFunctionExists.c.o] Error 1
+make[1]: Leaving directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95293/fast' failed
+make: *** [cmTC_95293/fast] Error 2
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb05f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb05f.dir/build.make CMakeFiles/cmTC_bb05f.dir/build
+make[1]: Entering directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb05f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_bb05f.dir/CheckFunctionExists.c.o   -c /home/charles/Desktop/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+virtual memory exhausted: Cannot allocate memory
+CMakeFiles/cmTC_bb05f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bb05f.dir/CheckFunctionExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bb05f.dir/CheckFunctionExists.c.o] Error 1
+make[1]: Leaving directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bb05f/fast' failed
+make: *** [cmTC_bb05f/fast] Error 2
+
+
+Determining if compiler accepts -pthread failed with the following output:
+Change Dir: /home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5d03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5d03.dir/build.make CMakeFiles/cmTC_b5d03.dir/build
+make[1]: Entering directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5d03.dir/CheckForPthreads.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b5d03.dir/CheckForPthreads.c.o   -c /home/charles/Desktop/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckForPthreads.c
+cc: internal compiler error: Segmentation fault (program cc1)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-5/README.Bugs> for instructions.
+CMakeFiles/cmTC_b5d03.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5d03.dir/CheckForPthreads.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b5d03.dir/CheckForPthreads.c.o] Error 4
+make[1]: Leaving directory '/home/charles/Desktop/Westguard-SSM/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5d03/fast' failed
+make: *** [cmTC_b5d03/fast] Error 2
+
+

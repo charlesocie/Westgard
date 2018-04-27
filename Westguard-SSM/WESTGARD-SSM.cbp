@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WESTGARD-SSM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_parties\;CMake Files\third_parties\googletest\;CMake Files\third_parties\googletest\cmake\;CMake Files\third_parties\Markup\;CMake Files\src\;CMake Files\src\Controller\;CMake Files\src\DataMapper\;CMake Files\src\Model\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/include"/>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/include"/>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/include"/>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/include"/>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Markup">
+				<Option output="/home/charles/Desktop/Westguard-SSM/third_parties/Markup/libMarkup.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/third_parties/Markup"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 Markup"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Markup/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/third_parties/Markup/libMarkup.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/third_parties/Markup"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 Markup/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WESTGARD-SSM">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/libWESTGARD-SSM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 WESTGARD-SSM"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WESTGARD-SSM/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/libWESTGARD-SSM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 WESTGARD-SSM/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controller">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/Controller/libController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/Controller"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 Controller"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Controller/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/Controller/libController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/Controller"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 Controller/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Controller/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataMapper">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/DataMapper/libDataMapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/DataMapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 DataMapper"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataMapper/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/DataMapper/libDataMapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/DataMapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 DataMapper/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/DataMapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Model">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/Model/libModel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/Model"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 Model"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Model/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/Model/libModel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/Model"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 Model/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/Model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/test/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/home/charles/Desktop/Westguard-SSM/src/test/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/Desktop/Westguard-SSM/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/charles/Desktop/Westguard-SSM/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/ERuleStatement.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/ERulesName.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/EUpdateResult.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/EWGResult.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/EvaluateController.cpp">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/EvaluateController.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/Measure.cpp">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/Measure.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/RuleSetting.cpp">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/RuleSetting.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/WestgardConfiguration.cpp">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/WestgardConfiguration.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/WestgardResult.cpp">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/WestgardResult.h">
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/DataMapper/IRulesDataMapper.h">
+			<Option target="DataMapper"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/DataMapper/RulesDataMapper.cpp">
+			<Option target="DataMapper"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/DataMapper/RulesDataMapper.h">
+			<Option target="DataMapper"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/IParameterizableRules.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/IParameterizableRules.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/IRule.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/IRule.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_1_2s.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_1_2s.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_1_3s.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_1_3s.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_2_2s.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_2_2s.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_2of3_2s.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_2of3_2s.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_R_4s.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_R_4s.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_XT.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_XT.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_X_1s.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_X_1s.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_Xx.cpp">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/Rule_Xx.h">
+			<Option target="Model"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/WestgardInterface.cpp">
+			<Option target="WESTGARD-SSM"/>
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/WestgardInterface.h">
+			<Option target="WESTGARD-SSM"/>
+			<Option target="Controller"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/AllTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/EvaluateControllerTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/RuleSettingTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_1_2sTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_1_3sTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_2_2sTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_2of3_2sTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_R_4sTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_XTTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_X_1sTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/Rule_XxTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/RulesDataMapperTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/WestgardConfigurationTest.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/WestgardInterfaceTests.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Markup.cpp">
+			<Option target="Markup"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Markup.h">
+			<Option target="Markup"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/Westgardlib-SSM.cmake">
+			<Option virtualFolder="CMake Files\third_parties\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_parties\googletest\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\third_parties\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/third_parties/Markup/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_parties\Markup\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Controller/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Controller\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/DataMapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\DataMapper\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/Model/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Model\"/>
+		</Unit>
+		<Unit filename="/home/charles/Desktop/Westguard-SSM/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

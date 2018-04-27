@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE listeRulesStatement >
+<listeRulesStatement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  >
+<rule name="RULE_1_2S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_1_3S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_2_2S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_2OF3_2S">
+<statement>false</statement>
+</rule>
+<rule name="RULE_R_4S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_X_1S">
+<statement>true</statement>
+<value>4</value>
+</rule>
+<rule name="RULE_XX">
+<statement>true</statement>
+<value>10</value>
+</rule>
+<rule name="RULE_XT">
+<statement>true</statement>
+<value>7</value>
+</rule>
+<evaluationParameterizableRulesEvaluationIf1_2sIsPasse>true</evaluationParameterizableRulesEvaluationIf1_2sIsPasse>
+</listeRulesStatement>

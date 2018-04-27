@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDataMapper.a  CMakeFiles/DataMapper.dir/RulesDataMapper.cpp.o
+/usr/bin/ranlib libDataMapper.a

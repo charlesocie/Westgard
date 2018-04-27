@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMarkup.a  CMakeFiles/Markup.dir/Markup.cpp.o
+/usr/bin/ranlib libMarkup.a

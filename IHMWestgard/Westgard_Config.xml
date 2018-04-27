@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE listeRulesStatement SYSTEM "C:\Users\Charles.Socie\Desktop\Westguard_SSM_Eclipse\Westgard-SSM\Westgard_Config.dtd">
+<listeRulesStatement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Westgard_Config.xsd" >
+<rule name="RULE_1_2S">
+<statement>false</statement>
+</rule>
+<rule name="RULE_1_3S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_2_2S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_2OF3_2S">
+<statement>false</statement>
+</rule>
+<rule name="RULE_R_4S">
+<statement>true</statement>
+</rule>
+<rule name="RULE_X_1S">
+<statement>true</statement>
+<value>45</value>
+</rule>
+<rule name="RULE_XX">
+<statement>true</statement>
+<value>4</value>
+</rule>
+<rule name="RULE_XT">
+<statement>true</statement>
+<value>6</value>
+</rule>
+<evaluationParameterizableRulesEvaluationIf1_2sIsPasse>true</evaluationParameterizableRulesEvaluationIf1_2sIsPasse>
+</listeRulesStatement>

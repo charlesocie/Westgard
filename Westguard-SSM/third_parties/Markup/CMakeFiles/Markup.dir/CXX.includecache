@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Markup.cpp
+stdio.h
+-
+Markup.h
+/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Markup.h
+errno.h
+-
+iconv.h
+-
+windows.h
+-
+mbstring.h
+-
+
+/home/charles/Desktop/Westguard-SSM/third_parties/Markup/Markup.h
+stdlib.h
+-
+string.h
+-
+string
+-
+afx.h
+-
+

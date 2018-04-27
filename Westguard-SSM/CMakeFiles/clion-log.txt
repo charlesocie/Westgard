@@ -1,0 +1,5 @@
+/home/charles/Desktop/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/charles/Desktop/Westguard-SSM
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/charles/Desktop/Westguard-SSM

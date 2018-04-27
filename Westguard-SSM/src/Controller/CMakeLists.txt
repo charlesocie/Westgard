@@ -1,0 +1,23 @@
+add_library(Controller
+	ERulesName.h
+	ERuleStatement.h
+	EUpdateResult.h
+	EvaluateController.cpp
+	EvaluateController.h
+	EWGResult.h
+	Measure.cpp
+	Measure.h
+	RuleSetting.cpp
+	RuleSetting.h
+	WestgardConfiguration.cpp
+	WestgardConfiguration.h
+	WestgardResult.cpp
+	WestgardResult.h
+	../WestgardInterface.cpp
+	../WestgardInterface.h
+)
+
+target_link_libraries(Controller
+	DataMapper
+	Model
+)

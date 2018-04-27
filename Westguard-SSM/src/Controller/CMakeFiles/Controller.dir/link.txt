@@ -1,0 +1,2 @@
+/usr/bin/ar qc libController.a  CMakeFiles/Controller.dir/EvaluateController.cpp.o CMakeFiles/Controller.dir/Measure.cpp.o CMakeFiles/Controller.dir/RuleSetting.cpp.o CMakeFiles/Controller.dir/WestgardConfiguration.cpp.o CMakeFiles/Controller.dir/WestgardResult.cpp.o CMakeFiles/Controller.dir/__/WestgardInterface.cpp.o
+/usr/bin/ranlib libController.a
